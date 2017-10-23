@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recetas SYSTEM "recetas.dtd">
+<recetas>
+	<receta>
+		<titulo>Fabada Asturiana</titulo>
+		<tipo>Primer plato</tipo>
+		<ingredientes>
+			<ingrediente cantidad="500 gramos">Fabas</ingrediente>
+		</ingredientes>
+		<calorias>1000 kcal</calorias>
+		<proceso>
+			<paso orden="p1">Poner les fabes a remojo la noche anterior.</paso>
+			<paso orden="p2">Poner les fabes a cocer con agua y laurel.</paso>
+		</proceso>
+		<dificultad>Medio</dificultad>
+		<tiempo-de-elaboracion>45 minutos</tiempo-de-elaboracion>
+		<elementos>
+			<elemento>cacerola</elemento>
+			<elemento>cucharon</elemento>
+		</elementos>
+		<origen>Receta de mi abuela</origen>
+	</receta>
+	<receta>
+		<titulo>Frixuelos Asturianos</titulo>
+		<tipo>Postre</tipo>
+		<ingredientes>
+			<ingrediente cantidad="200 gramos">Harina</ingrediente>
+			<ingrediente cantidad="4">Huevos</ingrediente>
+			<ingrediente cantidad="500 ml">Leche entera</ingrediente>
+			<ingrediente cantidad="1">Ralladura de limón</ingrediente>
+			<ingrediente cantidad="2">Cucharadas de azucar</ingrediente>
+			<ingrediente cantidad="1">Pizca de sal</ingrediente>
+			<ingrediente cantidad="">Aceite de oliva virgen extra.</ingrediente>
+			<ingrediente cantidad="">Azucar para espolvorear</ingrediente>
+		</ingredientes>
+		<calorias>300 kcal</calorias>
+		<proceso>
+			<paso orden="p1">En un bol batimos los huevos y añadimos las dos cucharadas de azúcar. Continuamos batiendo hasta que este se haya integrado</paso>
+			<paso orden="p2">Incorporamos la cucharada de coñac, la leche, una pizca de sal y la ralladura de limón. Volvemos a batir para mezclar bien los ingredientes.</paso>
+			<paso orden="p3">Añadimos la harina, poco a poco, al tiempo que seguimos vamos incorporándola con la ayuda de unas varillas. Dejamos la masa en reposo durante unos 30 minutos. Así conseguimos que la harina abra, y nos quede una textura como de crema ligera.</paso>
+			<paso orden="p4">La cantidad de frixuelos resultante dependerá del tamaño de la sartén que vayamos a utilizar. Yo he usado una sartén pequeña, de unos 20 cm. de diámetro.</paso>
+			<paso orden="p4">Añadimos una gota de aceite a la sartén y, con un papel de cocina, lo extendemos por toda la superficie de la base. Con una gotita es suficiente, sólo tenemos que cubrir la superficie con una finísima capa.</paso>
+			<paso orden="6">No es necesario una crepera, sólo una sartén normal que sea antiadherente, si no lo es, no podréis hacer los frixuelos porque se romperán al darles la vuelta.</paso>
+		</proceso>
+		<dificultad>Fácil</dificultad>
+		<tiempo-de-elaboracion>40 minutos</tiempo-de-elaboracion>
+		<elementos>
+			<elemento>Bol de cocina</elemento>
+			<elemento>Sarten</elemento>
+			<elemento>Tenedor</elemento>
+			<elemento>Barilla de cocina</elemento>
+			<elemento>Cuchara de madera</elemento>
+		</elementos>
+		<origen>recetasderechupete.com</origen>
+	</receta>
+	<receta>
+		<titulo>Arroz con pollo</titulo>
+		<tipo>Segundo plato</tipo>
+		<ingredientes>
+			<ingrediente cantidad="300 gramos">Arroz bomba</ingrediente>
+			<ingrediente cantidad="1">Cebolla grande</ingrediente>
+			<ingrediente cantidad="2">Dientes de ajo</ingrediente>
+			<ingrediente cantidad="1">Pimiento rojo</ingrediente>
+			<ingrediente cantidad="200 gramos">Alitas de pollo</ingrediente>
+		</ingredientes>
+		<calorias>500 kcal</calorias>
+		<proceso>
+			<paso orden="p1">Pelamos los dientes de ajo y picamos lo mejor posible. Reservamos. Picamos las cebollas, el calabacín, las zanahorias y los pimientos (verde y rojo) muy muy finos para que se deshagan en la cocción. Es importante que no se note su textura pero sí el sabor que le da al arroz.</paso>
+			<paso orden="p2">Escaldamos los tomates, quitamos la piel y los troceamos en pequeños trozos. Reservamos para después.</paso>
+			<paso orden="p3">Añadimos el aceite a la cazuela. Cuando el aceite esté caliente sofreímos las cebollas, el calabacín, los pimientos y las zanahorías, este proceso lleva unos 10 minutos a fuego fuerte, siempre removiendo cuidadosamente.</paso>
+			<paso orden="p4">Echamos el tomate muy troceado, esto tenemos que hacerlo cuando la verdura anterior ya está pochada para que no se quemen los anteriores ingrediendes. Añadimos las judias verdes y removemos.</paso>
+			<paso orden="p5">Cortamos las alitas en 2 trozos y salpimentamos, con sal, pimienta y los dientes de ajo muy picados. Lo mejor es tener el pollo unas 2 horas macerando antes de prepararlo para que se junten los sabores. Incluso le podemos echar un poco de salsa de soja, que le va muy bien, y para los más atrevidos un chorrito de miel.</paso>
+			<paso orden="p6">Agregamos las alitas a la cazuela. Las pasamos (unos 10  minutos a temperatura media) con la verdura.</paso>
+			<paso orden="p7">Ya veis que esto se trata de trocear verduras y pollo, agregandolas a la cazuela poco a poco.</paso>
+		</proceso>
+		<dificultad>Difícil</dificultad>
+		<tiempo-de-elaboracion>30 minutos</tiempo-de-elaboracion>
+		<elementos>
+			<elemento>Cuchillo</elemento>
+			<elemento>Cacerola</elemento>
+			<elemento>Sarten</elemento>
+			<elemento>Horno</elemento>
+			<elemento>Salsera</elemento>
+			<elemento>Salero</elemento>
+			<elemento>Espumadera</elemento>
+			<elemento>Jarra medidora</elemento>
+		</elementos>
+		<origen>Chicote S.L.</origen>
+	</receta>
+</recetas>

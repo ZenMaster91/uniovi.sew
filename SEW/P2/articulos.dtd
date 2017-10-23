@@ -1,0 +1,10 @@
+<!ELEMENT articulos (articulo*)>
+<!ELEMENT articulo (autor*)>
+<!ELEMENT ingrediente (#PCDATA)>
+<!ELEMENT articulo (resumen*)>
+<!ELEMENT resumen (#PCDATA)>
+<!ELEMENT articulo (keyword*)>
+<!ELEMENT keyword (#PCDATA)>
+<!ELEMENT articulo (revista*)>
+<!ELEMENT revista (#PCDATA)>
+<!ATTLIST articulo nombre CDATA #REQUIRED> <!ATTLIST articulo titulo CDATA #REQUIRED> <!ATTLIST autor nombre CDATA #REQUIRED> <!ATTLIST autor email CDATA #REQUIRED> <!ATTLIST resumen resumen CDATA #REQUIRED> <!ATTLIST keyword word CDATA #REQUIRED> <!ATTLIST revista nombre CDATA #REQUIRED> <!ATTLIST revista año CDATA #REQUIRED> <!ATTLIST revista inicio CDATA #REQUIRED> <!ATTLIST revista fin CDATA #REQUIRED>

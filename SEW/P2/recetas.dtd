@@ -1,0 +1,18 @@
+<!ELEMENT recetas (receta*)>
+<!ELEMENT receta (titulo*)>
+<!ELEMENT receta (ingrediente*)>
+<!ELEMENT ingrediente (#PCDATA)>
+<!ELEMENT receta (calorias*)>
+<!ELEMENT calorias (#PCDATA)>
+<!ELEMENT receta (proceso*)>
+<!ELEMENT proceso (#PCDATA)>
+<!ELEMENT receta (dificultad*)>
+<!ELEMENT receta (tiempo-de-elaboracion*)>
+<!ELEMENT receta (elementos*)>
+<!ELEMENT elementos (#PCDATA)>
+<!ELEMENT receta (elemento*)>
+<!ELEMENT elemento (#PCDATA)>
+<!ELEMENT receta (origen*)>
+<!ELEMENT elemento (#PCDATA)>
+
+<!ATTLIST ingrediente cantidad CDATA #REQUIRED> <!ATTLIST proceso orden CDATA #REQUIRED> 
