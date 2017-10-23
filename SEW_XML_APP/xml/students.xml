@@ -1,0 +1,26 @@
+<students>
+	<student id="1">
+		<name>Pepe</name>
+		<surname>Dieguez Martinez</surname>
+		<marks>
+			<mark subject="maths">
+				9.0
+			</mark>
+			<mark subject="spanish">
+				0.0
+			</mark>
+		</marks>
+	</student>
+	<student id="2">
+		<name>Carla</name>
+		<surname>Riera</surname>
+		<marks>
+			<mark subject="maths">
+				2.0
+			</mark>
+			<mark subject="spanish">
+				4.0
+			</mark>
+		</marks>
+	</student>
+</students>
