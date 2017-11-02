@@ -35,8 +35,10 @@ body > div:first-of-type {
   position: relative;
   overflow: hidden;
   height: 580px;
-  background-image: url("https://github.com/ZenMaster91/uniovi.sew/raw/master/RESOURCES/gfc%40full.tif");
+  background-image: url("https://github.com/ZenMaster91/uniovi.sew/raw/master/RESOURCES/banner-hero-gfc.png");
   background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
   color: white;
 }
 
