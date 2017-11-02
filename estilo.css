@@ -19,7 +19,6 @@ header {
     font-size: 17px;
     color: #fff;
     -webkit-backdrop-filter: saturate(180%) blur(20px);
-    backdrop-filter: saturate(180%) blur(20px);
 }
 
 body {
