@@ -1,0 +1,85 @@
+html {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif, Helvetica, Arial;
+    background-color: #fff;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    display: block;
+    margin: 0;
+    width: 100%;
+    min-width: 1024px;
+    height: 48px;
+    max-height: 44px;
+    background: #333;
+    background: rgba(0, 0, 0, 0.8);
+    font-size: 17px;
+    color: #fff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+header > h1:first-of-type {
+  font-size: 17px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+body {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p, ul, a {
+  font-size: 0.9em;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 22px;
+}
+
+body > p:first-of-type {
+  margin-top: 60px;
+}
+
+table {
+  width: 100%;
+}
+
+table, td {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+td, th {
+   border-bottom: 1px solid #ddd;
+}
+
+a {
+  color: #0070c9;
+  text-decoration: none;
+  line-height: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:after {
+  content:" >";
+}
+
+a: any-link {
+  color: -webkit-link;
+  text-decoration: underline;
+  cursor: auto;
+}
