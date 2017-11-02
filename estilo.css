@@ -4,7 +4,7 @@ html {
 }
 
 header {
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     left: 0;
@@ -29,6 +29,12 @@ header {
 body {
       line-height: 1.8;
       color: #000;
+      display: block;
+  display: block;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
   }
 
 body > div:first-of-type {
@@ -36,14 +42,17 @@ body > div:first-of-type {
   overflow: hidden;
   height: 580px;
   background-image: url("https://github.com/ZenMaster91/uniovi.sew/raw/master/RESOURCES/banner-hero-gfc.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   color: white;
+  margin-bottom: 65px;
 }
 
 body > div:nth-child(3) {
   margin-top: -5px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 body > div:nth-child(3) > ul {
@@ -74,7 +83,7 @@ body > div:nth-child(3) > ul > li > a {
   font-weight: 300;
   position: absolute;
   padding-top: 25px;
-  margin-left: -30px;
+  margin-left: -75px;
 }
 
 body > div:nth-child(3) > ul > li > a:hover {
