@@ -172,3 +172,71 @@ h1 {
     .submenu > a:hover {
       color: #6bf
     }
+
+    .aficiones {
+      margin-top: 50px;
+
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      width: 100%;
+      position: relative;
+      list-style-type: none;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+    .aficion {
+      border-top-width: 12px;
+      height: 598px;
+      width: 50%;
+      box-sizing: border-box;
+      border: 6px solid #fff;
+      background-color: #fafafa;
+      height: 592px;
+    }
+
+    .aficion > p:first-of-type {
+      color: white;
+      font-size: 70px;
+      font-weight: 500;
+      text-align: center;
+    }
+
+    .aficion:nth-child(1){
+      background-image: url("https://github.com/ZenMaster91/uniovi.sew/raw/master/RESOURCES/mountain.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+
+    .aficion:nth-child(2){
+      background-image: url("https://github.com/ZenMaster91/uniovi.sew/raw/master/RESOURCES/ski-white.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+
+    .aficion:nth-child(3){
+      background-image: url("https://github.com/ZenMaster91/uniovi.sew/raw/master/RESOURCES/run.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+
+    .aficion:nth-child(4){
+      background-image: url("https://github.com/ZenMaster91/uniovi.sew/raw/master/RESOURCES/swim.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
