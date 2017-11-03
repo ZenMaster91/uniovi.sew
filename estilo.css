@@ -167,6 +167,8 @@ h1 {
     vertical-align: middle;
     padding-bottom: 10px;
     padding-top: 10px;
+    position: fixed;
+    width: 100%;
     }
 
     .submenu > a:hover {
@@ -206,15 +208,26 @@ h1 {
       height: 592px;
     }
 
-    .aficion > p:first-of-type {
+    .aficion > p {
       color: white;
-      font-size: 70px;
-      font-weight: 500;
       text-align: center;
+      text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
     }
 
-    .aficion:nth-child(1){
-      background-image: url("https://github.com/ZenMaster91/uniovi.sew/raw/master/RESOURCES/mountain.jpg");
+    .aficion > p:first-of-type {
+      font-size: 70px;
+      font-weight: 500;
+      line-height: 0px;
+      padding-top: 160px;
+    }
+
+    .aficion > p:nth-child(2) {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+
+    .aficion:nth-child(1) {
+      background-image: url("https://github.com/ZenMaster91/uniovi.sew/raw/master/RESOURCES/festival.jpeg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
