@@ -4,7 +4,7 @@ html {
 }
 
 header {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
@@ -16,7 +16,11 @@ header {
     max-height: 44px;
     background: #333;
     background: rgba(0, 0, 0, 0.8);
-    font-size: 17px;
+    font-size: 14px;
+    line-height: 2.1;
+    font-weight: 500;
+    letter-spacing: -.01em;
+    font-family: "SF Text";
     color: #fff;
     -webkit-backdrop-filter: saturate(180%) blur(20px);
 }
@@ -25,11 +29,11 @@ body {
       line-height: 1.8;
       color: #000;
       display: block;
-  display: block;
-margin-top: 0px;
-margin-right: 0px;
-margin-bottom: 0px;
-margin-left: 0px;
+      display: block;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
   }
 
 body > div:first-of-type {
@@ -105,8 +109,8 @@ header > nav {
 }
 
 header > nav > a {
-    font-size: 17px;
-    font-weight: lighter;
+    /*font-size: 17px;
+    font-weight: lighter;*/
     text-align: center;
     color: white;
     text-decoration: none;
@@ -116,11 +120,12 @@ header > nav > a {
 
 header > nav > a:hover {
     opacity: .65;
-  }
+}
 
-  header > nav > a:active {
-      opacity: .65;
-    }
+header > nav > a[href='/~UO236856']{
+    opacity: .65;
+    cursor: default;
+}
 
 h1 {
       background-color:#0070c9;
