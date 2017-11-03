@@ -151,6 +151,8 @@ h1 {
     overflow-x: auto;
     overflow-y: hidden;
     display: block;
+    position: fixed;
+    width: 100%;
   }
 
   .submenu > a {
@@ -167,8 +169,6 @@ h1 {
     vertical-align: middle;
     padding-bottom: 10px;
     padding-top: 10px;
-    position: fixed;
-    width: 100%;
     }
 
     .submenu > a:hover {
