@@ -210,7 +210,7 @@ h1 {
     .aficion > p {
       color: white;
       text-align: center;
-      text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+      /*text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);*/
     }
 
     .aficion > p:first-of-type {
@@ -226,28 +226,28 @@ h1 {
     }
 
     .aficion:nth-child(1) {
-      background-image: url("https://github.com/ZenMaster91/uniovi.sew/raw/master/RESOURCES/festival.jpeg");
+      background-image: url("https://github.com/ZenMaster91/uniovi.sew/raw/master/RESOURCES/festival.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
     }
 
     .aficion:nth-child(2){
-      background-image: url("https://github.com/ZenMaster91/uniovi.sew/raw/master/RESOURCES/ski-white.jpeg");
+      background-image: url("https://github.com/ZenMaster91/uniovi.sew/raw/master/RESOURCES/ski-white.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
     }
 
     .aficion:nth-child(3){
-      background-image: url("https://github.com/ZenMaster91/uniovi.sew/raw/master/RESOURCES/run.jpeg");
+      background-image: url("https://github.com/ZenMaster91/uniovi.sew/raw/master/RESOURCES/run.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
     }
 
     .aficion:nth-child(4){
-      background-image: url("https://github.com/ZenMaster91/uniovi.sew/raw/master/RESOURCES/swim.jpeg");
+      background-image: url("https://github.com/ZenMaster91/uniovi.sew/raw/master/RESOURCES/swim.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
