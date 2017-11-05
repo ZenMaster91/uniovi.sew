@@ -1,42 +1,47 @@
 /*0001*/
+
 html {
-    font-family: "SF Display", -apple-system, BlinkMacSystemFont, sans-serif, Helvetica, Arial;
-    font-weight: 200;
-    background-color: #fff;
+  font-family: "SF Display", -apple-system, BlinkMacSystemFont, sans-serif, Helvetica, Arial;
+  font-weight: 200;
+  background-color: #fff;
 }
+
 /*0001*/
+
 header {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 9999;
-    display: block;
-    margin: 0;
-    width: 100%;
-    min-width: 1024px;
-    height: 48px;
-    max-height: 44px;
-    background: #333;
-    background: rgba(0, 0, 0, 0.8);
-    font-size: 17px;
-    color: #fff;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
-    backdrop-filter: saturate(180%) blur(20px);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+  display: block;
+  margin: 0;
+  width: 100%;
+  min-width: 1024px;
+  height: 48px;
+  max-height: 44px;
+  background: #333;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 17px;
+  color: #fff;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
 }
 
 /*0012*/
-header > h1:first-of-type {
+
+header>h1:first-of-type {
   font-size: 17px;
   font-weight: 400;
   text-align: center;
 }
 
 /*0001*/
+
 body {
   width: 1024px;
   margin-left: auto;
@@ -44,6 +49,7 @@ body {
 }
 
 /*0003*/
+
 p, ul, a {
   line-height: 22px;
   font-size: 17px;
@@ -53,16 +59,19 @@ p, ul, a {
 }
 
 /*0012*/
-body > p:first-of-type {
+
+body>p:first-of-type {
   margin-top: 60px;
 }
 
 /*0001*/
+
 table {
   width: 100%;
 }
 
 /*0002*/
+
 table, td {
   font-style: normal;
   font-weight: 400;
@@ -70,11 +79,13 @@ table, td {
 }
 
 /*0002*/
+
 td, th {
-   border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 /*0001*/
+
 a {
   color: #0070c9;
   text-decoration: none;
@@ -82,16 +93,19 @@ a {
 }
 
 /*0011*/
+
 a:hover {
   text-decoration: underline;
 }
 
 /*0011*/
+
 a:after {
-  content:" >";
+  content: " >";
 }
 
 /*0011*/
+
 a: any-link {
   color: -webkit-link;
   text-decoration: underline;
