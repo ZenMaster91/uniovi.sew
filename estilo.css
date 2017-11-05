@@ -147,7 +147,7 @@ body>div:nth-child(3)>ul>li>a:after {
   text-align: center;
   color: white;
   text-decoration: none;
-  height: 88px overflow-x: auto;
+  overflow-x: auto;
   overflow-y: hidden;
   display: block;
   position: fixed;
