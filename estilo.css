@@ -266,6 +266,15 @@ h1 {
       padding-left: 3px;
     }
 
+    .xml-cat {
+      cursor: not-allowed;
+      opacity: .65;
+    }
+
+    .xml-cat:hover {
+      color: white !important;
+    }
+
     .xml-cat:after {
       content: 'XML';
       font-size: 12px;
