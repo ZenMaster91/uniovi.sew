@@ -8,6 +8,7 @@
     <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
     <html>
       <head>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
         <title>P4. Ejercicio2 - Tarea1</title>
       </head>
       <body>
