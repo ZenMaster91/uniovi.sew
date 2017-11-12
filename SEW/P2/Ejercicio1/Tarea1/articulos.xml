@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<articulos>
+  <articulo>
+    <titulo>Difusion-Weighted MRI: from Brownian Motion to Head and Neck Tumor Characterization</titulo>
+    <autores>
+      <autor email="joachim.graessner@siemens.com">J. Graessner</autor>
+      <autor email="cristinautrilla@hotmail.com">C. Utrilla Contreras</autor>
+    </autores>
+    <resumen>
+      This paper describes basic physics as well as clinical applications of diffusion-weighted magnetic resonance imaging. This is a technique that provides complementary information to conventional imaging sequences and it is applied in the field of
+      oncologic imaging. This paper focuses on its specific application in head and neck, mainly in cancer patients, for characterization of primary tumors, and also for monitoring and predicting treatment response after chemotherapy or radiation therapy.
+      Last, although diffusion-weighted imaging is shown to add value in several areas by being part of the multi-parametric magnetic resonance imaging approach, there are some unsolved challenges, which are proposed as future work.
+    </resumen>
+    <keywords>
+      <keyword>diffusion-weighted</keyword>
+      <keyword>Imaging</keyword>
+      <keyword>Magnetic</keyword>
+      <keyword>Resonance Imaging</keyword>
+      <keyword>Oncologic Imaging</keyword>
+      <keyword>Tumor Characterization</keyword>
+    </keywords>
+    <revista>International Journal of Interactive Multimedia and Artificial Intelligence</revista>
+    <pag-inicio>6</pag-inicio>
+    <pag-fin>14</pag-fin>
+    <year>2016</year>
+  </articulo>
+  <articulo>
+    <titulo>Maths: from distance to e-learning</titulo>
+    <autores>
+      <autor email="alaredd@university.com">D. Álvarez</autor>
+      <autor email="moreno@gmail.com">D. Moreno</autor>
+      <autor email="orduna@email.com">P. Orduna</autor>
+      <autor email="pascual@email.com">V. Pascual</autor>
+      <autor email="vicente@uno.com">F. J. San Vicente</autor>
+    </autores>
+    <resumen>
+      New technological progress and especially the use of Internet have implied a new paradigm on education, and nowadays one of its most prominent features is the rise of a new approach based on an instruction beyond the solid walls of schools and
+      characterized by mobility. That is, e-learning. However, its origins and concept can be traced in time. This paper, focused on mathematics, deals with its evolution, antecedents and present status.
+    </resumen>
+    <keywords>
+      <keyword>e-learning</keyword>
+      <keyword>b-learning</keyword>
+      <keyword>Maths competencies</keyword>
+      <keyword>History distance learning</keyword>
+      <keyword>Maths software and platforms</keyword>
+    </keywords>
+    <revista>International Journal of Interactive Multimedia and Artificial Intelligence</revista>
+    <pag-inicio>6</pag-inicio>
+    <pag-fin>10</pag-fin>
+    <year>2015</year>
+  </articulo>
+  <articulo>
+    <titulo>A Fuzzy Group Prioritization Method for Deriving Weights and its Software Implementation</titulo>
+    <autores>
+      <autor email="tarhim@ifalmu.com">Tarifa Almulhim</autor>
+      <autor email="lidmil@rusia.ru">Ludmil Mikhailov</autor>
+      <autor email="long@dong.chi">Dong-Ling Xu</autor>
+    </autores>
+    <resumen>
+      Several Multi-Criteria Decision Making (MCDM) methods involve pairwise comparisons to obtain the preferences of decision makers (DMs). This paper proposes a fuzzy group prioritization method for deriving group priorities/weights from fuzzy pairwise
+      comparison matrices. The proposed method extends the Fuzzy Preferences Programming Method (FPP) by considering the different importance weights of multiple DMs. The elements of the group pairwise comparison matrices are presented as fuzzy numbers
+      rather than exact numerical values, in order to model the uncertainty and imprecision in the DMs’ judgments. Unlike the known fuzzy prioritization techniques, the proposed method is able to derive crisp weights from incomplete and fuzzy set of
+      comparison judgments and does not require additional aggregation procedures. A prototype of a decision tool is developed to assist DMs to implement the proposed method for solving fuzzy group prioritization problems in MATLAB. Detailed numerical
+      examples are used to illustrate the proposed approach.
+    </resumen>
+    <keywords>
+      <keyword>Manchester Business School</keyword>
+      <keyword>University of Manchester</keyword>
+      <keyword>Booth Street East</keyword>
+      <keyword>Manchester</keyword>
+    </keywords>
+    <revista>International Journal of Interactive Multimedia and Artificial Intelligence</revista>
+    <pag-inicio>4</pag-inicio>
+    <pag-fin>14</pag-fin>
+    <year>2013</year>
+  </articulo>
+  <articulo>
+    <titulo>Prospecting the future with AI</titulo>
+    <autores>
+      <autor email="">Dr. Jose Miguel Castillo</autor>
+      <autor email="">Conchi Cortes</autor>
+    </autores>
+    <resumen>
+      If we were able to foresee the future, we could be prepared to reduce the impact of bad situations as well as getting the most of profiting periods. Our world is a dynamic system that evolves as time goes by. The number of variables that can
+      influence in future situations outnumbers our capacity of prediction at a first glance. This article will show an alternative way to foresee potential future scenarios based on human experts’ opinion, what can be considered as a knowledge modeling
+      tool"
+    </resumen>
+    <keywords>
+      <keyword>Conchi</keyword>
+      <keyword>future</keyword>
+      <keyword>Computer very scince</keyword>
+      <keyword>human</keyword>
+    </keywords>
+    <revista>Universal Science Human and Computer</revista>
+    <pag-inicio>10</pag-inicio>
+    <pag-fin>12</pag-fin>
+    <year>1999</year>
+  </articulo>
+</articulos>

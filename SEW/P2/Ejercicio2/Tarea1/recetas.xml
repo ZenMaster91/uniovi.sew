@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE recetas SYSTEM "recetas.dtd">
 <recetas>
   <receta>
     <titulo>Fabada Asturiana</titulo>
@@ -20,7 +19,6 @@
     </elementos>
     <origen>Receta de mi abuela</origen>
   </receta>
-
   <receta>
     <titulo>Frixuelos Asturianos</titulo>
     <tipo>Postre</tipo>
@@ -54,8 +52,6 @@
     </elementos>
     <origen>recetasderechupete.com</origen>
   </receta>
-
-
   <receta>
     <titulo>Arroz con pollo</titulo>
     <tipo>Segundo plato</tipo>
@@ -68,12 +64,14 @@
     </ingredientes>
     <calorias>500 kcal</calorias>
     <proceso>
-      <paso orden="p1">Pelamos los dientes de ajo y picamos lo mejor posible. Reservamos. Picamos las cebollas, el calabacín, las zanahorias y los pimientos (verde y rojo) muy muy finos para que se deshagan en la cocción. Es importante que no se note su textura pero sí el sabor que le da al arroz.</paso>
+      <paso orden="p1">Pelamos los dientes de ajo y picamos lo mejor posible. Reservamos. Picamos las cebollas, el calabacín, las zanahorias y los pimientos (verde y rojo) muy muy finos para que se deshagan en la cocción. Es importante que no se note su
+        textura pero sí el sabor que le da al arroz.</paso>
       <paso orden="p2">Escaldamos los tomates, quitamos la piel y los troceamos en pequeños trozos. Reservamos para después.</paso>
       <paso orden="p3">Añadimos el aceite a la cazuela. Cuando el aceite esté caliente sofreímos las cebollas, el calabacín, los pimientos y las zanahorías, este proceso lleva unos 10 minutos a fuego fuerte, siempre removiendo cuidadosamente.</paso>
       <paso orden="p4">Echamos el tomate muy troceado, esto tenemos que hacerlo cuando la verdura anterior ya está pochada para que no se quemen los anteriores ingrediendes. Añadimos las judias verdes y removemos.</paso>
-      <paso orden="p5">Cortamos las alitas en 2 trozos y salpimentamos, con sal, pimienta y los dientes de ajo muy picados. Lo mejor es tener el pollo unas 2 horas macerando antes de prepararlo para que se junten los sabores. Incluso le podemos echar un poco de salsa de soja, que le va muy bien, y para los más atrevidos un chorrito de miel.</paso>
-      <paso orden="p6">Agregamos las alitas a la cazuela. Las pasamos (unos 10  minutos a temperatura media) con la verdura.</paso>
+      <paso orden="p5">Cortamos las alitas en 2 trozos y salpimentamos, con sal, pimienta y los dientes de ajo muy picados. Lo mejor es tener el pollo unas 2 horas macerando antes de prepararlo para que se junten los sabores. Incluso le podemos echar un
+        poco de salsa de soja, que le va muy bien, y para los más atrevidos un chorrito de miel.</paso>
+      <paso orden="p6">Agregamos las alitas a la cazuela. Las pasamos (unos 10 minutos a temperatura media) con la verdura.</paso>
       <paso orden="p7">Ya veis que esto se trata de trocear verduras y pollo, agregandolas a la cazuela poco a poco.</paso>
     </proceso>
     <dificultad>Difícil</dificultad>
@@ -90,6 +88,4 @@
     </elementos>
     <origen>Chicote S.L.</origen>
   </receta>
-
-
 </recetas>

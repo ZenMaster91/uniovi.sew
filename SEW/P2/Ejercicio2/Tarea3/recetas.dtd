@@ -1,0 +1,18 @@
+<?xml encoding="UTF-8"?>
+<!ELEMENT recetas (receta)+>
+<!ELEMENT receta (titulo,tipo,ingredientes,calorias,proceso,dificultad,tiempo-de-elaboracion,elementos,origen)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT ingredientes (ingrediente)+>
+<!ELEMENT calorias (#PCDATA)>
+<!ELEMENT proceso (paso)+>
+<!ELEMENT dificultad (#PCDATA)>
+<!ELEMENT tiempo-de-elaboracion (#PCDATA)>
+<!ELEMENT elementos (elemento)+>
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT ingrediente (#PCDATA)>
+<!ATTLIST ingrediente xmlns CDATA #FIXED '' cantidad CDATA #REQUIRED>
+<!ELEMENT paso (#PCDATA)>
+<!ATTLIST paso xmlns CDATA #FIXED '' orden NMTOKEN #REQUIRED>
+<!ELEMENT elemento (#PCDATA)>
+<!ATTLIST elemento xmlns CDATA #FIXED ''>

@@ -1,0 +1,14 @@
+<?xml encoding="UTF-8"?>
+<!ELEMENT articulos (articulo)+>
+<!ELEMENT articulo (titulo,autores,resumen,keywords,revista,pag-inicio,pag-fin,year)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autores (autor)+>
+<!ELEMENT resumen (#PCDATA)>
+<!ELEMENT keywords (keyword)+>
+<!ELEMENT revista (#PCDATA)>
+<!ELEMENT pag-inicio (#PCDATA)>
+<!ELEMENT pag-fin (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ATTLIST autor xmlns CDATA #FIXED '' email CDATA #REQUIRED>
+<!ELEMENT keyword (#PCDATA)>
