@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="calculator.css" />
+<link rel="stylesheet" type="text/css" href="https://s3-eu-west-1.amazonaws.com/cssfonts/SF/sf-font.css" />
+<script src="calculator.js"></script>
+
+<head>
+  <title>Calculadora</title>
+</head>
+
+<body>
+  <h1>Calculadora</h1>
+
+  <div id="viewer" class="viewer">0</div>
+
+  <div class="calculator">
+    <button class="special-op" onclick="c.clear()">C</button>
+    <button class="special-op" onclick="c.plusMinus()">+/-</button>
+    <button class="special-op" onclick="c.perCent()">%</button>
+    <button class="op" onclick="c.addItem('/')">/</button>
+
+    <button class="number" onclick="c.addItem(7)">7</button>
+    <button class="number" onclick="c.addItem(8)">8</button>
+    <button class="number" onclick="c.addItem(9)">9</button>
+    <button class="op" onclick="c.addItem('*')">x</button>
+
+    <button class="number" onclick="c.addItem(4)">4</button>
+    <button class="number" onclick="c.addItem(5)">5</button>
+    <button class="number" onclick="c.addItem(6)">6</button>
+    <button class="op" onclick="c.addItem('-')">-</button>
+
+    <button class="number" onclick="c.addItem(1)">1</button>
+    <button class="number" onclick="c.addItem(2)">2</button>
+    <button class="number" onclick="c.addItem(3)">3</button>
+    <button class="op" onclick="c.addItem('+')">+</button>
+
+    <button class="double-op" onclick="c.addItem(0)">0</button>
+    <button class="number" onclick="c.addItem('.')">,</button>
+    <button class="op" onclick="c.equals()">=</button>
+  </div>
+</body>
+
+</html>
