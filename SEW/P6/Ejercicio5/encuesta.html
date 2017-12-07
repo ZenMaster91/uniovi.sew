@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="https://s3-eu-west-1.amazonaws.com/cssfonts/SF/sf-font.css" />
+<link rel="stylesheet" type="text/css" href="encuesta.css" />
+
+<head>
+  <title>Encuesta</title>
+</head>
+
+<body>
+  <h1>Encuesta sobre la calculadora</h1>
+
+  <div class="select-div">
+    <label class="form-label" for="sec-select">Tipo de usuario:</label>
+    <select class="form-dropdown" id="sec-select">
+      <option value="">Experto</option>
+      <option value="Annual" selected="selected">Medio</option>
+      <option value="Quarterly">Bajo</option>
+    </select>
+  </div>
+  <div class="select-div">
+    <label class="form-label" for="sec-select">Facilidad de uso:</label><br>
+    <input type="radio" name="facilidad" value="alta"> alta<br>
+    <input type="radio" name="facilidad" value="media" checked> media<br>
+    <input type="radio" name="facilidad" value="mala"> mala<br>
+  </div>
+</body>
+
+</html>

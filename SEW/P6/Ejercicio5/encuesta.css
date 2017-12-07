@@ -1,0 +1,46 @@
+html {
+  font-family: "SF Display", -apple-system, BlinkMacSystemFont, sans-serif, Helvetica, Arial;
+  background-color: #fff;
+  display: flex;
+}
+
+body {
+  font-size: 15px;
+  font-weight: 200;
+  /*margin: auto;*/
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+label {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.33333;
+}
+
+.form-dropdown {
+  display: block;
+  box-sizing: border-box;
+  width: 330px;
+  height: 34px;
+  padding-top: 2px;
+  color: #333333;
+  font-size: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: left;
+  background: white;
+  border: 1px solid #d6d6d6;
+  border-radius: 4px;
+  font-family: "SF Display";
+  font-weight: 100;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.select-div:after {}
