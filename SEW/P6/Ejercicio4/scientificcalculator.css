@@ -1,0 +1,72 @@
+html {
+  font-family: "SF Display", -apple-system, BlinkMacSystemFont, sans-serif, Helvetica, Arial;
+  background-color: #fff;
+  display: flex;
+}
+
+body {
+  font-size: 2em;
+  font-weight: 900;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+input[type="button"] {
+  border: 0;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+  float: left;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 0.25em;
+  width: 2em;
+  height: 2em;
+  border-radius: 100px;
+}
+
+input[type="button"]:active {
+  opacity: .65;
+}
+
+.viewer {
+  font-size: 1.5em;
+  font-weight: 200;
+  text-align: right;
+  overflow: hidden;
+  width: 400px;
+  border: 0px solid black;
+  border-bottom: 1px solid black;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.calculator {
+  /*display: grid;*/
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: repeat(5, 80px);
+}
+
+.double-op {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 4.67em !important;
+}
+
+.special-op {
+  background: #d5d5d5 !important;
+  color: #333 !important;
+}
+
+.op {
+  background-color: rgb(255, 149, 0) !important;
+}
+
+.op-scy {
+  background-color: #555 !important;
+}

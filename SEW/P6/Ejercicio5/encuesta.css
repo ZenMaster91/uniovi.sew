@@ -22,22 +22,23 @@ label {
   line-height: 1.33333;
 }
 
-.form-dropdown {
+.form-dropdown, .form-input {
   display: block;
   box-sizing: border-box;
   width: 330px;
   height: 34px;
-  padding-top: 2px;
+  padding-top: 10px;
   color: #333333;
   font-size: 15px;
   padding-left: 16px;
   padding-right: 16px;
   text-align: left;
   background: white;
-  border: 1px solid #d6d6d6;
-  border-radius: 4px;
+  border: 0px solid #d6d6d6;
+  border-bottom: 1px solid #d6d6d6;
+  /*border-radius: 4px;*/
   font-family: "SF Display";
-  font-weight: 100;
+  font-weight: 300;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;

@@ -2,6 +2,7 @@
 <html>
 <link rel="stylesheet" type="text/css" href="https://s3-eu-west-1.amazonaws.com/cssfonts/SF/sf-font.css" />
 <link rel="stylesheet" type="text/css" href="encuesta.css" />
+<script src="encuesta.js"></script>
 
 <head>
   <title>Encuesta</title>
@@ -9,21 +10,72 @@
 
 <body>
   <h1>Encuesta sobre la calculadora</h1>
+  <form name="formulario" action="mailto:suNombre@SuDireccion.com" method="post" onsubmit="e.validate();">
 
-  <div class="select-div">
-    <label class="form-label" for="sec-select">Tipo de usuario:</label>
+    <!-- CAMPO EN EL QUE INTRODUCES EL NOMBRE -->
+    <label class="form-label">Nombre:</label><br />
+    <input class="form-input" name="nombre" type="text"><br />
+
+    <!-- CAMPO EN EL QUE INTRODUCES LOS APELLIDOS -->
+    <label class="form-label">Apellidos:</label><br />
+    <input class="form-input" name="apellidos" type="text"><br />
+
+    <!-- CAMPO EN EL QUE INTRODUCES EL SEXO -->
+    <label class="form-label">Sexo:</label><br />
     <select class="form-dropdown" id="sec-select">
+    <option value="hombre">Hombre</option>
+    <option value="mujer">Mujer</option>
+  </select>
+
+    <!-- CAMPO EN EL QUE INTRODUCES LA EDAD -->
+    <label class="form-label">Edad:</label><br />
+    <input class="form-input" name="edad" type="number"><br />
+
+    <!-- CAMPO EN EL QUE INTRODUCES EL EMAIL -->
+    <label class="form-label">Email:</label><br />
+    <input class="form-input" name="email" type="email"><br />
+
+    <!-- CAMPO EN EL QUE SELECCIONAS EL NIVEL DE EXPERIENCIA -->
+    <div class="select-div">
+      <label class="form-label">Tipo de usuario:</label>
+      <select class="form-dropdown">
       <option value="">Experto</option>
       <option value="Annual" selected="selected">Medio</option>
       <option value="Quarterly">Bajo</option>
     </select>
-  </div>
-  <div class="select-div">
-    <label class="form-label" for="sec-select">Facilidad de uso:</label><br>
-    <input type="radio" name="facilidad" value="alta"> alta<br>
-    <input type="radio" name="facilidad" value="media" checked> media<br>
-    <input type="radio" name="facilidad" value="mala"> mala<br>
-  </div>
+    </div>
+
+    <!-- CAMPO EN EL QUE PUNTUAS DEL 1 AL 10 -->
+    <label class="form-label">Facilidad de uso:</label><br />
+    <input type="radio" name="facilidad" value="1">1<br/>
+    <input type="radio" name="facilidad" value="2">2<br/>
+    <input type="radio" name="facilidad" value="3">3<br/>
+    <input type="radio" name="facilidad" value="4">4<br/>
+    <input type="radio" name="facilidad" value="5" checked>5<br/>
+    <input type="radio" name="facilidad" value="6">6<br/>
+    <input type="radio" name="facilidad" value="7">7<br/>
+    <input type="radio" name="facilidad" value="8">8<br/>
+    <input type="radio" name="facilidad" value="9">9<br/>
+    <input type="radio" name="facilidad" value="10">10<br/>
+
+    <!-- CAMPO EN EL QUE PUNTUAS DEL 1 AL 10 -->
+    <label class="form-label">Funcionalidad ofrecida:</label><br />
+    <input type="radio" name="funcionalidad" value="1">1<br/>
+    <input type="radio" name="funcionalidad" value="2">2<br/>
+    <input type="radio" name="funcionalidad" value="3">3<br/>
+    <input type="radio" name="funcionalidad" value="4">4<br/>
+    <input type="radio" name="funcionalidad" value="5" checked>5<br/>
+    <input type="radio" name="funcionalidad" value="6">6<br/>
+    <input type="radio" name="funcionalidad" value="7">7<br/>
+    <input type="radio" name="funcionalidad" value="8">8<br/>
+    <input type="radio" name="funcionalidad" value="9">9<br/>
+    <input type="radio" name="funcionalidad" value="10">10<br/>
+
+    <!-- CAMPO EN EL QUE INTRODUCES TU EXPERIENCIA -->
+    <label class="form-label">Comentarios:</label><br />
+    <textarea class="form-input" name="experiencia" style="width:600px; height:270px"> </textarea>
+    <p><input type="submit"></p>
+  </form>
 </body>
 
 </html>
