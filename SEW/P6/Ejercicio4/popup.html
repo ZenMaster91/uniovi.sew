@@ -1,198 +1,53 @@
-<!DOCTYPE html>
-<html>
-
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script type="text/javascript" src="main.js"></script>
-  <title>Scientific Calculator </title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="https://s3-eu-west-1.amazonaws.com/cssfonts/SF/sf-font.css" />
+  <script src="scientificCalculator.js"></script>
 </head>
-
-<body>
-
-  <div id="calculator" class="text-center">
-
-    <div>
-      <span class="logo">Scientific Calculator</span>
-      <span class="v">v 1.2</span>
-
-    </div>
-    <form class="form-control">
-      <div class="calc-main">
-        <div id="display-box" class="calc-display">
-          <span id="box">0</span>
-          <div class="calc-rad">Rad</div>
-          <span class="sign"></span>
-          <div class="notification"></div>
-          <div class="calc-hold"></div>
-          <div class="calc-buttons">
-            <div class="calc-info">?</div>
-            <div id="smaller" class="calc-smaller">&gt;</div>
-            <div class="calc-ln">.</div>
-
-
-          </div>
-        </div>
-
-
-        <div class="calc-left calc-top">
-          <div class="trigo-keys">
-            <div>2nd</div>
-          </div>
-
-          <div class="trigo-keys">
-            <div>(</div>
-          </div>
-          <div class="trigo-keys">
-            <div>)</div>
-          </div>
-          <div class="trigo-keys">
-            <div>%</div>
-          </div>
-          <div class="trigo-keys">
-            <div>1/x</div>
-          </div>
-          <div class="trigo-keys">
-            <div>x<sup>2</sup></div>
-          </div>
-          <div class="trigo-keys">
-            <div>x<sup>3</sup></div>
-          </div>
-          <div class="trigo-keys">
-            <div>y<sup>x</sup></div>
-          </div>
-          <div class="trigo-keys">
-            <div>x!</div>
-          </div>
-          <div class="trigo-keys">
-            <div>&radic;</div>
-          </div>
-          <div class="trigo-keys">
-            <div class="calc-radxy">
-              <sup>x</sup><em>&radic;</em><span>y</span>
-            </div>
-          </div>
-          <div class="trigo-keys">
-            <div>log</div>
-          </div>
-          <div class="trigo-keys">
-            <div>sin</div>
-          </div>
-          <div class="trigo-keys">
-            <div>cos</div>
-          </div>
-          <div class="trigo-keys">
-            <div>tan</div>
-          </div>
-          <div class="trigo-keys">
-            <div>ln</div>
-          </div>
-          <div class="trigo-keys">
-            <div>sinh</div>
-          </div>
-          <div class="trigo-keys">
-            <div>cosh</div>
-          </div>
-          <div class="trigo-keys">
-            <div>tanh</div>
-          </div>
-          <div class="trigo-keys">
-            <div>e<sup>x</sup></div>
-          </div>
-          <div class="trigo-keys">
-            <div>&pi;</div>
-          </div>
-          <div class="trigo-keys">
-            <div>EE</div>
-          </div>
-          <div class="trigo-keys">
-            <div>Rand</div>
-          </div>
-          <div class="trigo-keys">
-            <div>mc</div>
-          </div>
-          <div class="trigo-keys">
-            <div>m+</div>
-          </div>
-          <div class="trigo-keys">
-            <div>m-</div>
-          </div>
-          <div class="trigo-keys">
-            <div>mr</div>
-          </div>
-          <div id="rad" class="trigo-keys">
-            <div>Deg</div>
-          </div>
-
-        </div>
-        <div class="calc-right ">
-
-          <div class="calc-black keys ">
-            <div>7</div>
-          </div>
-          <div class="calc-black keys">
-            <div>8</div>
-          </div>
-          <div class="calc-black keys">
-            <div>9</div>
-          </div>
-          <!--
-                    <div id="del" class="calc-brown keys del-ac">
-                        <div>DEL</div>
-                    </div>
--->
-          <div class="calc-brown keys del-ac">
-            <div>AC</div>
-          </div>
-          <div class="calc-black keys">
-            <div>4</div>
-          </div>
-          <div class="calc-black keys">
-            <div>5</div>
-          </div>
-          <div class="calc-black keys">
-            <div>6</div>
-          </div>
-          <div class="calc-brown calc-f21 keys keys2">
-            <div>&times;</div>
-          </div>
-          <div class="calc-brown calc-f19 keys keys2">
-            <div>&divide;</div>
-          </div>
-          <div class="calc-black keys">
-            <div>1</div>
-          </div>
-          <div class="calc-black keys">
-            <div>2</div>
-          </div>
-          <div class="calc-black keys">
-            <div>3</div>
-          </div>
-          <div class="calc-brown calc-f18 keys keys2 ">
-            <div>+</div>
-          </div>
-          <div class="calc-brown calc-f18 keys keys2">
-            <div>&#8211;</div>
-          </div>
-          <div class="calc-black calc-zero keys">
-            <div>
-              <span>0</span>
-            </div>
-          </div>
-          <div class="calc-black calc-f21 keys">
-            <div>.</div>
-          </div>
-          <div class="calc-brown keys  ">
-            <div>+/&#8211;</div>
-          </div>
-
-          <div class="calc-down equal keys calc-orange calc-eq calc-f17 keys2">=</div>
-          <textarea class="calc-blank"></textarea>
-
-        </div>
-      </div>
-    </form>
-  </div>
-</body>
-
-</html>
+<form name="sci-calc">
+  <table class="calculator" cellspacing="0" cellpadding="1">
+    <tr>
+      <td colspan="5"><input id="display" name="display" value="0" size="28" maxlength="25"></td>
+    </tr>
+    <tr>
+      <td><input type="button" class="btnTop" name="btnTop" value="C" onclick="this.form.display.value =  0 "></td>
+      <td><input type="button" class="btnTop" name="btnTop" value="<--" onclick="c.deleteChar(this.form.display)"></td>
+      <td><input type="button" class="btnTop" name="btnTop" value="=" onclick="if(c.checkNum(this.form.display.value)) { c.compute(this.form) }"></td>
+      <td><input type="button" class="btnOpps" name="btnOpps" value="&#960;" onclick="c.addChar(this.form.display,'3.14159265359')"></td>
+      <td><input type="button" class="btnMath" name="btnMath" value="%" onclick=" c.percent(this.form.display)"></td>
+    </tr>
+    <tr>
+      <td><input type="button" class="btnNum" name="btnNum" value="7" onclick="c.addChar(this.form.display, '7')"></td>
+      <td><input type="button" class="btnNum" name="btnNum" value="8" onclick="c.addChar(this.form.display, '8')"></td>
+      <td><input type="button" class="btnNum" name="btnNum" value="9" onclick="c.addChar(this.form.display, '9')"></td>
+      <td><input type="button" class="btnOpps" name="btnOpps" value="x&#94;" onclick="if(c.checkNum(this.form.display.value)) { c.exp(this.form) }"></td>
+      <td><input type="button" class="btnMath" name="btnMath" value="/" onclick="c.addChar(this.form.display, '/')"></td>
+      <tr>
+        <td><input type="button" class="btnNum" name="btnNum" value="4" onclick="c.addChar(this.form.display, '4')"></td>
+        <td><input type="button" class="btnNum" name="btnNum" value="5" onclick="c.addChar(this.form.display, '5')"></td>
+        <td><input type="button" class="btnNum" name="btnNum" value="6" onclick="c.addChar(this.form.display, '6')"></td>
+        <td><input type="button" class="btnOpps" name="btnOpps" value="ln" onclick="if(c.checkNum(this.form.display.value)) { c.ln(this.form) }"></td>
+        <td><input type="button" class="btnMath" name="btnMath" value="*" onclick="c.addChar(this.form.display, '*')"></td>
+      </tr>
+      <tr>
+        <td><input type="button" class="btnNum" name="btnNum" value="1" onclick="c.addChar(this.form.display, '1')"></td>
+        <td><input type="button" class="btnNum" name="btnNum" value="2" onclick="c.addChar(this.form.display, '2')"></td>
+        <td><input type="button" class="btnNum" name="btnNum" value="3" onclick="c.addChar(this.form.display, '3')"></td>
+        <td><input type="button" class="btnOpps" name="btnOpps" value="&radic;" onclick="if(c.checkNum(this.form.display.value)) { c.sqrt(this.form) }"></td>
+        <td><input type="button" class="btnMath" name="btnMath" value="-" onclick="c.addChar(this.form.display, '-')"></td>
+      </tr>
+      <tr>
+        <td><input type="button" class="btnMath" name="btnMath" value="&#177" onclick="c.changeSign(this.form.display)"></td>
+        <td><input type="button" class="btnNum" name="btnNum" value="0" onclick="c.addChar(this.form.display, '0')"></td>
+        <td><input type="button" class="btnMath" name="btnMath" value="&#46;" onclick="c.addChar(this.form.display, '&#46;')"></td>
+        <td><input type="button" class="btnOpps" name="btnOpps" value="x&#50;" onclick="if(c.checkNum(this.form.display.value)) { c.square(this.form) }"></td>
+        <td><input type="button" class="btnMath" name="btnMath" value="+" onclick="c.addChar(this.form.display, '+')"></td>
+      </tr>
+      <tr>
+        <td><input type="button" class="btnMath" name="btnMath" value="(" onclick="c.addChar(this.form.display, '(')"></td>
+        <td><input type="button" class="btnMath" name="btnMath" value=")" onclick="c.addChar(this.form.display,')')"></td>
+        <td><input type="button" class="btnMath" name="btnMath" value="cos" onclick="if(c.checkNum(this.form.display.value)) { c.cos(this.form) }"></td>
+        <td><input type="button" class="btnMath" name="btnMath" value="sin" onclick="if(c.checkNum(this.form.display.value)) { c.sin(this.form) }"></td>
+        <td><input type="button" class="btnMath" name="btnMath" value="tan" onclick="if(c.checkNum(this.form.display.value)) { c.tan(this.form) }"></td>
+      </tr>
+      </tabel>
+</form>
