@@ -9,15 +9,11 @@
 
 <body>
   <h1>Ball Game</h1>
-  <canvas id="myCanvas" width="480" height="320"></canvas>
+  <canvas id="myCanvas" width="600" height="400"></canvas>
 </body>
-
-<footer>
-  <script type="text/javascript" src="game.js"></script>
-  <script>
-    game.draw(document.getElementById('myCanvas'),
-      document.getElementById('myCanvas').getContext('2d'));
-  </script>
-</footer>
+<script type="text/javascript" src="game.js"></script>
+<script>
+  game.draw();
+</script>
 
 </html>
