@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="https://s3-eu-west-1.amazonaws.com/cssfonts/SF/sf-font.css" />
+<link rel="stylesheet" type="text/css" href="game.css" />
+
+<head>
+  <title>Ball Game</title>
+</head>
+
+<body>
+  <h1>Ball Game</h1>
+  <canvas id="myCanvas" width="480" height="320"></canvas>
+</body>
+
+<footer>
+  <script type="text/javascript" src="game.js"></script>
+  <script>
+    game.draw(document.getElementById('myCanvas'),
+      document.getElementById('myCanvas').getContext('2d'));
+  </script>
+</footer>
+
+</html>
