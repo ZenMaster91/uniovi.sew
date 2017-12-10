@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>P7 - Ejercicio 7</title>
+  <link rel="stylesheet" type="text/css" href="https://s3-eu-west-1.amazonaws.com/cssfonts/SF/sf-font.css" />
+  <link rel="stylesheet" href="Ejercicio7.css">
+  <script src="https://unpkg.com/dropbox/dist/Dropbox-sdk.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>P7 - Ejercicio 7</h1>
+  </header>
+
+  <section class="app-container">
+    <div class="content-main">
+      <h2>Suba sus archivos a Dropbox!</h2>
+      <p>Está herramienta se conecta con la API de dropbox y usa <code>Dropbox.filesUpload()</code> [<a href="http://dropbox.github.io/dropbox-sdk-js/Dropbox.html#filesUpload">docs</a>] método para subir archivos.</p>
+
+      <form onsubmit="return uploadFile()">
+        <input type="text" id="access-token" placeholder="Token de acceso" />
+        <input type="file" id="file-upload" />
+        <button id="uploadB" type="submit">Subir Archivo</button>
+      </form>
+      <h2 id="results"></h2>
+      <p class="info">Para conseguir su token, si no lo tiene puede dirigirse a: <a href="https://dropbox.github.io/dropbox-api-v2-explorer/#files_list_folder" target="_blank">Explorador de API</a>. Allí clique en el botón azul de conseguir token, copie y péguelo aquí.</p>
+    </div>
+  </section>
+
+  <script src="Ejercicio7.js"></script>
+</body>
+
+</html>
