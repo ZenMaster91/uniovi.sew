@@ -1,0 +1,100 @@
+html {
+  font-family: 'SF Display', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 2em auto;
+  text-align: center;
+  line-height: 1.5;
+}
+
+h1 {
+  margin: 1em auto;
+}
+
+a {
+  text-decoration: none;
+  color: pink;
+  font-weight: 700;
+}
+
+span.red {
+  color: red;
+  font-weight: 700;
+}
+
+span.blue {
+  color: blue;
+  font-weight: 700;
+}
+
+span.pink {
+  color: pink;
+}
+
+.button {
+  font-size: 17px;
+  line-height: 1.52947;
+  font-weight: 400;
+  background-color: #0070c9;
+  background: -webkit-linear-gradient(#42a1ec, #0070c9);
+  background: linear-gradient(#42a1ec, #0070c9);
+  border-color: #07c;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  min-width: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 3px;
+  padding-bottom: 4px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.button:hover {
+  background-color: #147bcd;
+  background: -webkit-linear-gradient(#51a9ee, #147bcd);
+  background: linear-gradient(#51a9ee, #147bcd);
+  border-color: #1482d0;
+  text-decoration: none;
+}
+
+.tic-tac-toe {
+  width: 315px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.tile {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  vertical-align: top;
+  padding: 15px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 60px;
+  text-align: center;
+}
+
+.free {
+  background-color: #999;
+}
+
+.O-play {
+  background-color: blue;
+}
+
+.X-play {
+  background-color: red;
+}
