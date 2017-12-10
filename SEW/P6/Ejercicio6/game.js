@@ -23,7 +23,7 @@ class Game {
     this.brickOffsetTop = 30;
     this.brickOffsetLeft = 30;
     this.score = 0;
-    this.lives = 3;
+    this.lives = 4;
 
     this.bricks = [];
 
