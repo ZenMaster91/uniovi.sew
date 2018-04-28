@@ -1,0 +1,27 @@
+html {
+  font-family: "SF Display", -apple-system, BlinkMacSystemFont, sans-serif, Helvetica, Arial;
+  background-color: #fff;
+  display: flex;
+}
+
+body {
+  font-size: 15px;
+  font-weight: 200;
+  margin: auto;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 900;
+}
+
+li {
+  padding: 10px;
+  overflow: auto;
+  color: blue;
+}
+
+li:hover {
+  background: #eee;
+  cursor: pointer;
+}
